@@ -1,0 +1,95 @@
+#menuBar{
+    position: fixed;
+    left: -20%;
+    bottom: 0%;
+    top: 0%;
+    z-index: 99999;
+    width: 15%;
+    text-align: center;
+}
+#menuBar h2{
+    cursor: pointer;
+    /* display: none; */
+}
+#menuDiv{
+    margin-top: 100%;
+}
+#navBar i{
+    cursor: pointer;
+}
+#navBar{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    top: 0%;
+    z-index: 99999;
+    width: 60px;
+    text-align: center;
+}
+.itemImg img{
+    border-radius: 10px;
+}
+#mainImg{
+    border-radius: 10px;
+    /* width: 25rem; */
+}
+#exitMenu{
+    display: none;
+}
+.imgLayer{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px ;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.itemImg:hover .imgLayer{
+    top: 0%;
+    transition: all 1s;
+}
+.cateLayer{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px ;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    bottom: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.itemImg:hover .cateLayer{
+    top: 0%;
+    transition: all 1s;
+}
+#lightBoxContainer{
+    background-color: black;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 50; */
+    /* visibility: hidden; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.serachForm{
+    visibility: hidden;
+}
+#contactSection{
+    display: none;
+}
+#displayCategory{
+    display: none;
+}
+

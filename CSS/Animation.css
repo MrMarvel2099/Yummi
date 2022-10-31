@@ -1,0 +1,93 @@
+.typing{
+    font-size: 2rem;
+}
+.typing::after{
+    content: "";
+    animation: typing 10s infinite;
+}
+
+@keyframes typing {
+    0%{content:"|"}
+    1.50%{content:"|"}
+    3.00%{content:"D|"}
+    4.50%{content:"De|"}
+    6.00%{content:"Des|"}
+    7.50%{content:"Desi|"}
+    9.00%{content:"Desig|"}
+    10.50%{content:"Design|"}
+    12.00%{content:"Designe|"}
+    13.50%{content:"Designer|"}
+    15.00%{content:"Designer|"}
+    16.50%{content:"Designe|"}
+    18.00%{content:"Design|"}
+    19.50%{content:"Desig|"}
+    21.00%{content:"Desi|"}
+    22.50%{content:"Des|"}
+    24.00%{content:"De|"}
+    25.50%{content:"De|"}
+    27.00%{content:"Dev|"}
+    28.50%{content:"Deve|"}
+    30.00%{content:"Devel|"}
+    31.50%{content:"Develo|"}
+    33.00%{content:"Develop|"}
+    34.50%{content:"Develope|"}
+    36.00%{content:"Developer|"}
+    37.50%{content:"Developer|"}
+    39.00%{content:"Develope|"}
+    40.50%{content:"Develop|"}
+    42.00%{content:"Develo|"}
+    43.50%{content:"Devel|"}
+    45.00%{content:"Deve|"}
+    46.50%{content:"Dev|"}
+    48.00%{content:"De|"}
+    49.50%{content:"D|"}
+    51.00%{content:"|"}
+    52.50%{content:"F|"}
+    54.00%{content:"Fr|"}
+    55.10%{content:"Fre|"}
+    56.30%{content:"Free|"}
+    57.40%{content:"Freel|"}
+    58.50%{content:"Freela|"}
+    59.60%{content:"Freelan|"}
+    60.70%{content:"Freelanc|"}
+    61.80%{content:"Freelance|"}
+    62.90%{content:"Freelancer|"}
+    64.00%{content:"Freelancer|"}
+    65.10%{content:"Freelance|"}
+    66.20%{content:"Freelanc|"}
+    67.30%{content:"Freelan|"}
+    68.40%{content:"Freela|"}
+    69.50%{content:"Freel|"}
+    70.60%{content:"Free|"}
+    71.70%{content:"Fre|"}
+    72.80%{content:"Fr|"}
+    73.90%{content:"F|"}
+    75% {content: "|"}
+    75.5%{content: "|";}
+    76%{content:"P|"}
+    77%{content:"Ph|"}
+    78%{content:"Pho|"}
+    79%{content:"Phot|"}
+    80%{content:"Photo|"}
+    81%{content:"Photog|"}
+    82%{content:"Photogr|"}
+    83%{content:"Photogra|"}
+    84%{content:"Photograp|"}
+    85%{content:"Photograph|"}
+    86%{content:"Photographe|"}
+    87%{content:"Photographer|"}
+    88%{content:"Photographer|"}
+    89%{content:"Photographe|"}
+    90%{content:"Photograph|"}
+    91%{content:"Photograp|"}
+    92%{content:"Photogra|"}
+    93%{content:"Photogr|"}
+    94%{content:"Photog|"}
+    95%{content:"Photo|"}
+    96%{content:"Phot|"}
+    97%{content:"Pho|"}
+    98%{content:"Ph|"}
+    99%{content:"P|"}
+    100% {content: "|";}
+    
+}

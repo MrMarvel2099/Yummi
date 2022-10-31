@@ -1,0 +1,136 @@
+                                                /* G  E  N  E  R  A  L */
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section h2{
+    position: relative;
+}
+
+                                                /* H  E  A  D  E  R */
+
+header{
+    background-image: url(../img/Cover.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+header ul li a::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 100%;
+    left: 51%;
+    translate: 50%;
+    transition: all 0.5s;
+}
+header ul li:hover a::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 100%;
+}
+
+                                                /* A  B  O  U  T */
+
+#about .about-img{
+    border-radius: 10px;
+}
+
+                                                /* S  E  R  V  I  C  E */
+
+#services .icon{
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid;
+}
+#services .service-item{
+    border-radius: 10px;
+}
+#services .service-item:hover .icon{
+    border: 5px solid rgba(241, 241, 250, 0.678) !important;
+    background-color: blue !important;
+    color:white;
+}
+.counter-background{
+    background-image: url(../img/i03.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#counter .icon{
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid;
+    color: white;
+}
+
+                                                /* P  O  R  T  F  O  L  I  O */
+
+#work .foot{
+    font-size: 0.8rem;
+}
+#work .card-plus{
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid blue;
+    color: blue;
+}
+#work .work-item:hover img{
+    transform: scale(2);
+    transition-duration: 2s;
+}
+#work .work-item .work-img{
+    overflow: hidden;
+}
+#portfolio{
+    background-image: url(../img/Portfrlio.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#portfolio .portflio-img{
+    width: 15%;
+}
+#portfolio .portflio-img img{
+    width: 100%;
+}
+#portfolio .portfolio-btn{
+    width: 1rem;
+    height: 1rem;
+}
+
+                                                /* B  L  O  G */
+
+#blog .blog-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+                                                /* C  O  N  T  A  C  T */
+
+.contact-bg{
+    background-image: url(../img/Portfrlio.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#contact .soical-icons .icon-item{
+    width: 2rem;
+    height: 2rem;
+    border: 4px solid blue;
+}
+#contact .soical-icons .icon-item:hover{
+    border: 5px solid rgba(241, 241, 250, 0.678) !important;
+    background-color: blue !important;
+    color:white;
+}
+#contact .contact-view{
+    border-radius: 10px;
+}

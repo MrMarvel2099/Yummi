@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummi</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+
+    <!-- Menu List -->
+
+    <header class="navbar navbar-expand-md bg-black text-white justify-content-between flex-column" id="menuBar">
+        <div class="bg-black text-start" id="menuDiv">
+            <h2 class="menuItems lead" id="search">Search</h2>
+            <h2 class="menuItems lead" id="category">Category</h2>
+            <h2 class="menuItems lead" id="area">Area</h2>
+            <h2 class="menuItems lead" id="ingredients">Ingredients</h2>
+            <h2 class="menuItems lead" id="contact">Contact Us</h2>
+        </div>
+    </header>
+
+    <!-- Side Navigation Bar -->
+
+    <nav class="navbar container navbar-expand-md bg-light justify-content-between flex-column" id="navBar">
+        <div>
+            <img src="img/logo.png" alt="logo" class="w-75" id="logo">
+        </div>
+        <div>
+            <i class="fa-solid fa-bars fa-2xl" id="menu"></i>
+            <i class="fa-solid fa-x fa-2xl" id="exitMenu"></i>
+        </div>
+        <div class="py-3">
+            <i class="d-block fa-solid fa-globe fa-xl"></i>
+            <br>
+            <i class="d-block fa-solid fa-share-nodes fa-xl"></i>
+        </div>
+    </nav>
+
+    <!-- Display Items -->
+
+    <section class="text-white">
+        <div class="container py-5">
+            <div class="row g-3" id="displayItems">
+                <!-- In Javascript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+
+    <section class="text-center my-4">
+        <div class="container serachForm" id="serachForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control bg-transparent border-0 text-secondary text-center border-bottom" placeholder="Search by Name">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control bg-transparent border-0 text-secondary text-center border-bottom" placeholder="Search by Fist Letter">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+
+    <section class="text-white">
+        <div class="py-5 container">
+            <div class="row g-3" id="displayCategory">
+                <!-- In JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="my-5" id="contactSection">
+        <div class="container w-50 m-auto">
+            <h1 class="text-center text-secondary">Contact Us</h1>
+        <div class="row g-2 my-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter your Name">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter Email">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter Phone">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter Age">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter Password">
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control shadow text-white border-0 border-bottom border-secondary bg-transparent shadow-lg" placeholder="Enter RePassword">
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-outline-danger">Submit</button>
+        </div>
+        </div>
+    </section>
+
+    <!-- Meal Light Box -->
+
+    <section id="boxItem">
+        <div id="lightBoxContainer" class="container p-5">
+            <div class="row">
+                <div class="col-lg-4 selectedImg">
+                    <img src="..." alt="..." class="w-100" id="mainImg">
+                    <h2 class="text-center text-white py-3 fw-bolder" id="mealTitle">...</h2>
+                </div>
+                <div class="col-lg-8 selectedText text-white">
+                    <h2 class="py-2">Instructions</h2>
+                    <p id="instructions"></p>
+                    <p><b>Area: </b><span id="areaText">...</span></p>
+                    <p><b>Category: </b><span id="categoryText">...</span></p>
+                    <h2 class="py-2">Recipes:</h2>
+                    <div id="recipes" class="row">
+                        <!-- In JavaScript -->
+                    </div>
+                    <h2 class="py-2">Tags:</h2>
+                    <div id="tags">
+                        <!-- In JavaScript -->
+                    </div>
+                    <button class="btn fw-bolder btn-success">Source</button>
+                    <button class="btn fw-bolder btn-danger">Youtube</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
